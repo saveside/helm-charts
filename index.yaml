@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  anki-sync:
+  - apiVersion: v2
+    appVersion: 25.02.4
+    created: "2025-05-04T10:03:40.331504384Z"
+    description: A Helm chart for deploying Anki Sync Server
+    digest: a90fd11f4b67a5463d3623dbf75fc17dec8f737d9013db0fa412ea123082dc21
+    maintainers:
+    - email: savew.sh@proton.me
+      name: Save
+    - email: mt190502@mtaha.dev
+      name: Taha
+    name: anki-sync
+    type: application
+    urls:
+    - https://github.com/saveside/helm-charts/releases/download/anki-sync-1.2.0/anki-sync-1.2.0.tgz
+    version: 1.2.0
+generated: "2025-05-04T10:03:40.331515986Z"
