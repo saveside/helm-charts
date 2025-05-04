@@ -1,0 +1,10 @@
+apiVersion: v2
+name: bin
+description: A minimal pastebin which also accepts binary files like Images, PDFs and ships multiple clients.
+type: application
+version: 1.0.0
+appVersion: latest
+projectUrl: https://github.com/wantguns/bin
+maintainers:
+- name: Save
+  email: savew.sh@proton.me

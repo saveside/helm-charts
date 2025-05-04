@@ -1,0 +1,39 @@
+image:
+  main:
+    repository: docker.io/wantguns/bin
+    pullPolicy: IfNotPresent
+    # tag: latest
+
+global:
+  main:
+    ports:
+      - containerPort: 6163
+    options:
+      bin_port: 6163 # defaults to 6162
+      bin_limits: '{form="16 MiB"}'
+      bin_client_desc: 'placeholder'
+    environments: {}
+
+service:
+  type: ClusterIP
+  ports:
+    - name: http
+      protocol: TCP
+      port: 6163
+      targetPort: 6163
+
+resources:
+  limits:
+    main:
+      memory: 512Mi
+  requests:
+    main:
+      storage: 1Gi
+
+replicaCount: 1
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
