@@ -16,4 +16,19 @@ entries:
     urls:
     - https://github.com/saveside/helm-charts/releases/download/anki-sync-1.2.0/anki-sync-1.2.0.tgz
     version: 1.2.0
-generated: "2025-05-04T10:03:40.331515986Z"
+  bin:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2025-05-04T10:51:58.715305302Z"
+    description: A minimal pastebin which also accepts binary files like Images, PDFs
+      and ships multiple clients.
+    digest: 5fcb16a1189d14b853308f3718c36197d617a290b42f5dcd4328a3a9d3904e70
+    maintainers:
+    - email: savew.sh@proton.me
+      name: Save
+    name: bin
+    type: application
+    urls:
+    - https://github.com/saveside/helm-charts/releases/download/bin-1.0.0/bin-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-05-04T10:51:58.715309199Z"
