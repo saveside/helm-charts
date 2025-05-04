@@ -7,6 +7,6 @@
 To install the repo just run:
 
 ```bash
-helm repo add mtaha https://helm.savew.dev
+helm repo add savew https://helm.savew.dev
 helm repo update
 ```
